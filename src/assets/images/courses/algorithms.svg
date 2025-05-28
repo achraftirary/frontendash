@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrière-plan -->
+  <rect width="800" height="400" fill="#F3E5F5"/>
+  
+  <!-- Motif de connexions -->
+  <g stroke="#9C27B0" stroke-width="2" stroke-opacity="0.2">
+    <circle cx="200" cy="100" r="20"/>
+    <circle cx="400" cy="200" r="20"/>
+    <circle cx="600" cy="300" r="20"/>
+    <circle cx="300" cy="150" r="20"/>
+    <circle cx="500" cy="250" r="20"/>
+    
+    <line x1="200" y1="100" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="400" y2="200"/>
+    <line x1="400" y1="200" x2="500" y2="250"/>
+    <line x1="500" y1="250" x2="600" y2="300"/>
+  </g>
+  
+  <!-- Symboles d'algorithmes -->
+  <g fill="#7B1FA2" font-family="monospace" font-size="14">
+    <text x="180" y="105">start</text>
+    <text x="380" y="205">process</text>
+    <text x="580" y="305">end</text>
+    <text x="280" y="155">if</text>
+    <text x="480" y="255">loop</text>
+  </g>
+  
+  <!-- Code symbolique -->
+  <g fill="#9C27B0" font-family="monospace" font-size="12">
+    <text x="100" y="350">function sort(array) {</text>
+    <text x="120" y="370">  return array.sort();</text>
+    <text x="100" y="390">}</text>
+  </g>
+</svg> 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrière-plan -->
+  <rect width="800" height="400" fill="#E8F5E9"/>
+  
+  <!-- Grille -->
+  <g stroke="#81C784" stroke-width="1" stroke-opacity="0.2">
+    <path d="M0 50 H800 M0 100 H800 M0 150 H800 M0 200 H800 M0 250 H800 M0 300 H800 M0 350 H800"/>
+    <path d="M100 0 V400 M200 0 V400 M300 0 V400 M400 0 V400 M500 0 V400 M600 0 V400 M700 0 V400"/>
+  </g>
+  
+  <!-- Graphique en barres -->
+  <g>
+    <rect x="150" y="150" width="50" height="200" fill="#4CAF50" fill-opacity="0.7"/>
+    <rect x="250" y="100" width="50" height="250" fill="#4CAF50" fill-opacity="0.7"/>
+    <rect x="350" y="200" width="50" height="150" fill="#4CAF50" fill-opacity="0.7"/>
+    <rect x="450" y="50" width="50" height="300" fill="#4CAF50" fill-opacity="0.7"/>
+    <rect x="550" y="175" width="50" height="175" fill="#4CAF50" fill-opacity="0.7"/>
+  </g>
+  
+  <!-- Courbe de distribution -->
+  <path d="M100 300 Q 200 100 400 200 T 700 150" 
+        stroke="#2E7D32" 
+        stroke-width="3" 
+        fill="none"/>
+  
+  <!-- Points de données -->
+  <g fill="#2E7D32">
+    <circle cx="200" cy="250" r="4"/>
+    <circle cx="300" cy="200" r="4"/>
+    <circle cx="400" cy="150" r="4"/>
+    <circle cx="500" cy="225" r="4"/>
+    <circle cx="600" cy="175" r="4"/>
+  </g>
+  
+  <!-- Légende -->
+  <g font-family="Arial" font-size="12" fill="#333333">
+    <text x="50" y="380">0</text>
+    <text x="150" y="380">20</text>
+    <text x="250" y="380">40</text>
+    <text x="350" y="380">60</text>
+    <text x="450" y="380">80</text>
+    <text x="550" y="380">100</text>
+  </g>
+</svg> 

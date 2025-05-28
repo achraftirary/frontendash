@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrière-plan -->
+  <rect width="800" height="400" fill="#E8F5E9"/>
+  
+  <!-- Motif géométrique -->
+  <path d="M0 0L800 400M800 0L0 400" stroke="#81C784" stroke-width="2" stroke-opacity="0.2"/>
+  
+  <!-- Formules mathématiques -->
+  <g fill="#4CAF50" font-family="'Courier New', monospace" font-size="24">
+    <text x="100" y="100">∫ f(x) dx</text>
+    <text x="300" y="150">∑(n=1 to ∞)</text>
+    <text x="500" y="200">d/dx[f(x)]</text>
+    <text x="200" y="250">lim(x→∞)</text>
+    <text x="400" y="300">∂f/∂x</text>
+  </g>
+  
+  <!-- Symboles mathématiques -->
+  <g fill="#2E7D32" font-size="48">
+    <text x="150" y="180">π</text>
+    <text x="350" y="230">∞</text>
+    <text x="550" y="280">±</text>
+    <text x="250" y="330">√</text>
+  </g>
+</svg> 
